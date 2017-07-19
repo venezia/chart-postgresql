@@ -1,0 +1,20 @@
+name: postgresql
+version: ${CHART_VER}-${CHART_REL}
+description: Object-relational database management system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+keywords:
+- postgresql
+- postgres
+- database
+- sql
+home: https://www.postgresql.org/
+icon: https://www.postgresql.org/media/img/about/press/elephant.png
+sources:
+- https://github.com/kubernetes/charts
+- https://github.com/docker-library/postgres
+- https://github.com/samsung-cnct/chart-postgresql
+maintainers:
+- name: swordbeta
+- name: databus23
+- name: Michael Venezia
+  email: mvenezia@gmail.com
+engine: gotpl
